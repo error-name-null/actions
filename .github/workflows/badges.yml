@@ -26,7 +26,7 @@ jobs:
       - name: Create Files
         run: |
           mkdir pages
-          cat "Hello World" >> pages/index.html
+          echo "Hello World" >> pages/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload Artifact
